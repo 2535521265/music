@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 
-    //TopView按钮图标美化
+//TopView按钮图标美化
 Button{
     property string iconSource: ""
     property string toolTip: ""

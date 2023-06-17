@@ -68,15 +68,7 @@ Rectangle{
                     border.width: 0.5
                 }
             }
-            Text {
-                id: nameText
-                text: qsTr("田福")
-                anchors.left: slider.left
-                anchors.bottom: slider.top
-                font.family: "微软雅黑"
-                color: "white"
 
-            }
             Text {
                 id:timeTxet
                 text: qsTr("00:00/.5:30")
@@ -86,6 +78,12 @@ Rectangle{
                 color: "white"
             }
         }
+        MusicIconButton{
+                    Layout.preferredWidth: 50
+                    text: "词"//找到图后补充上去就删除这行
+                    //icon.source: "qrc:/images/repeat.png"
+                    toolTip: "歌词"
+                }
         MusicIconButton{
             Layout.preferredWidth: 50
             icon.source: "qrc:/images/favorite.png"
