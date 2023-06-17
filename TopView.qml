@@ -12,15 +12,15 @@ ToolBar{
     Layout.fillWidth: true
     RowLayout{
         anchors.fill: parent
-//        Text {
-//            id: musicName
-//            text: qsTr("网易云音乐")
-//            font.family: "微软雅黑"
-//            font.pointSize: 28
-//        }
+        Text {
+            id: musicName
+            text: qsTr("闲暇音乐")
+            font.family: "微软雅黑"
+            font.pointSize: 28
+        }
         MusicToolButton{
             icon.source: "qrc:/images/music.png"
-            toolTip: "网易云音乐"
+            toolTip: "闲暇音乐"
         }
         MusicToolButton{
             icon.source: "qrc:/images/about.png"
