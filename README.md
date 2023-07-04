@@ -1,13 +1,13 @@
 ##  项目介绍
 
 ###  项目介绍
-
+#### 主体布局
 ![主体布局](music_images/主体布局.png)
-
+#### 主界面
 ![主界面](music_images/主界面.png)
-
+#### 搜索界面
 ![搜索界面](music_images/搜索界面.png)
-
+#### 歌词界面
 ![歌词界面](music_images/歌词界面.png)
 
 - 使用Qt Quick QML开发的一款云音乐播放器程序
