@@ -2,6 +2,8 @@
 
 ###  项目介绍
 
+![主体布局](music_images/主体布局.png)
+
 ![主界面](music_images/主界面.png)
 
 ![搜索界面](music_images/搜索界面.png)
